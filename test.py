@@ -1,7 +1,8 @@
-import example
+import example as duongntt
 
 def testAdd():
-    result = example.add(1,2)
-    print(result)
+    testObj = duongntt.Example()
+    e = testObj.add(1, 2)
+    print(e, type(e))
 
 testAdd()

@@ -1,5 +1,10 @@
-#include "stdio.h"
 
-using namespace std;
+class Example {
+private:
+    int x, y;
 
-int add(int a, int b);
+public:
+    int add(int* a, int b);
+    Example();
+    ~Example();
+};
